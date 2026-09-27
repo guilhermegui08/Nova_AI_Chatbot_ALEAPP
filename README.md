@@ -1,7 +1,6 @@
 # Nova AI Chatbot — ALEAPP Modules
 
 [![ALEAPP](https://img.shields.io/badge/ALEAPP-Merged-success)](https://github.com/abrignoni/ALEAPP)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Forensic analysis modules for the Android application **AI Chatbot – Nova** (`com.scaleup.chatai`), developed for [ALEAPP](https://github.com/abrignoni/ALEAPP) (Android Logs Events And Protobuf Parser).
 
