@@ -68,17 +68,3 @@ Provides a single, fully reconstructed conversation report by correlating the ou
 - Token usage and message-level metadata
 
 ---
-
-## 🛠️ Forensic Context
-
-This work was developed as part of a Master's degree in Cybersecurity and Digital Forensics at the **Polytechnic Institute of Leiria** and represents the **first known forensic study** of the AI Chatbot – Nova application for Android.
-
-Key findings that motivated these modules include:
-
-- Deleted conversations removed from the UI are **not actually removed** from the SQLite database (`softDeleted` flag remains `0`), enabling recovery.
-- Complete conversation histories, timestamps, token counts, and Firebase Cloud Storage URLs remain accessible in `chat-ai.db`.
-- User PII (email, username, Firebase UID) is recoverable from shared preferences via an unencrypted JWT.
-- Image attachments (AI-generated and user-submitted) are cached locally in `cache/image_manager_disk_cache/` (Glide cache) — including thumbnails of videos and full-sized original images.
-- All user-uploaded documents and media are confirmed to be retained server-side on Firebase Cloud Storage.
-
-For full analysis details, refer to the accompanying report (`Team6-report.pdf`).
